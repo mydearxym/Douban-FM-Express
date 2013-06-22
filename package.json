@@ -12,7 +12,10 @@
   "readmeFilename": "README.md",
   "gitHead": "3e7f6af75dbcdf9f5bd0ee4e17457be7b2b8f923",
   "description": "A douban FM web app build with express",
-  "main": "app.js",
+  "main": "index.html",
+  "webkit": {
+    "plugin": true
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
@@ -25,5 +28,15 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cyrilis/Douban-FM-Express/issues"
+  },
+  "window": {
+    "icon": "fm.ico",
+    "toolbar": false,
+    "width": 585,
+    "height": 290,
+    "min_width": 585,
+    "min_height": 290,
+    "max_width": 585,
+    "max_height": 290
   }
 }
